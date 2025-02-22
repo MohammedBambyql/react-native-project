@@ -10,6 +10,9 @@ export default function Index() {
         alignItems: 'center',
       }}
     >
+      <Text className=" font-bold text-lg my-10 color-lime-400">
+        Welcome To REACT
+      </Text>
       <Link href="/sign-in">Sign in</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/profile">Profile</Link>
